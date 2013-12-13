@@ -11,9 +11,9 @@ To send the form from your dev and production, modify `application.rb`, `environ
 How to customize
 ----------------
 
-- The form page is in __app/views/messages/new.html.erb__
+- The form page is in __app/views/messages/new.html.erb__. It includes the form as a partial.
 
-- The form is in __app/views/messages/_form.html.erb__
+- The actual form is in __app/views/messages/_form.html.erb__
 
 - The form currently redirects on submit to the home page with a notice. Change this in __app/controllers/messages_controller.rb__
 
